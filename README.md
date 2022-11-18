@@ -9,12 +9,12 @@ How to run ?
 try to test application -> http://localhost:8081/list/product/
 
 Let's understand the flow
-   ######flow when show the list product
+   ######   flow when show the list product
    - user hit this url http://localhost:8081/list/product/
    - rest-client send request to rest-server
    - when product exist
    - mapping product with ui(product-list.html)
-   ######flow when save product
+   ######   flow when save product
    - show list product
    - click button add
    - show form to input product
@@ -22,12 +22,12 @@ Let's understand the flow
    - convert product into json
    - send value to rest-server
    - if success, show the list product already added
-   ######flow when delete
+   ######   flow when delete
    - show list product
    - select row , you want to delete
    - send request to rest-server
    - if success redirect into list product page
-   ######flow when update
+   ######   flow when update
    - show list product
    - select row, you want update
    - mapping to edit page
